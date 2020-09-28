@@ -3,7 +3,9 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    unsigned int lado;
+    cin >> lado;
+    cout<<"El área del cuadrado es: "<<lado*lado<<endl;
 
     return 0;
 }
